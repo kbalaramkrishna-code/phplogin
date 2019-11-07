@@ -93,7 +93,7 @@ if (isset($_POST["submit"])) {
         <form action="" method="POST"
             onsubmit="return signupvalidation()">
             <div class="row">
-                <label>Name</label><span id="name_error"></span>
+                <label>Nameing</label><span id="name_error"></span>
                 <div>
                     <input type="text" class="form-control" name="name"
                         id="name" placeholder="Enter your name">
